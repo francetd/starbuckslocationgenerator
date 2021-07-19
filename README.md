@@ -28,7 +28,7 @@ I was tasked an end of the year project in my 'Introduction to Programming' clas
 
 Directions should guide you into any sort of help needed. There are a couple of bugs (example: some user errors in inputting a wrong number, word, or letter is not accounted for) when plugging into the system that I unfortunately did not have time to change. Nonetheless, I plan on fixing these issues with a new version later. 
 
-* If the code is not fully functional please let me know ASAP
+* If the code is not fully functional, please let me know ASAP
 
 
 ## Version History
