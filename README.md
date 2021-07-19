@@ -15,13 +15,14 @@ I was tasked an end of the year project in my 'Introduction to Programming' clas
 
 ### Installing
 
-* Download any IDE (I used Thonny) for the function to be used. 
+* Download an IDE (I used Thonny) for the function to be used. 
 
 
 ### Executing program
 
 1. To start first make sure that all files included in this repository are completely downloaded to your own computer. 
-2. Directions should appear within the "Directions"  
+2. Files downloaded within your computer should be within the same path directory for this to work. 
+3. Directions should appear within the "Directions" button on the GUI.  
 
 ## Help
 
