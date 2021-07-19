@@ -42,5 +42,7 @@ Directions should guide you into any sort of help needed. There are a couple of 
 
 This project is licensed under the [France D] License
 
-## Acknowledgments
+## Resources Used
 * kaggle dataset: https://www.kaggle.com/starbucks/store-locations 
+* https://stackoverflow.com
+* My Professor's teachings :)
