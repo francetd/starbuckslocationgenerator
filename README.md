@@ -36,7 +36,7 @@ Directions should guide you into any sort of help needed. There are a couple of 
 * 0.1
     * Initial Release
     * Bugs in some user inputs
-    * Would include constructing a functional rating report  that would send user inputs into another csv file for analysis   
+    * Would include a functional rating report  that would send user rating inputs into another csv file for analysis   
 
 ## License
 
