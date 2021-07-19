@@ -39,7 +39,7 @@ Directions should guide you into any sort of help needed. There are a couple of 
 
 ## License
 
-This project is licensed under the [France D] License - see the LICENSE.md file for details
+This project is licensed under the [France D] License
 
 ## Acknowledgments
 * kaggle dataset: https://www.kaggle.com/starbucks/store-locations 
