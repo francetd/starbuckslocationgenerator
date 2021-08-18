@@ -25,13 +25,13 @@ def findloc():
     elif len(zip_box.get()) ==0:
         tkinter.messagebox.showwarning("Unable to find Location", "Please make sure that you inputted all the  correct information.")
     
-    #reads starbucks.csv file looks through if the location information is in starbucks.csv, writes all information in a seperate csv file.  
+    #reads directory.csv file, looks through if the location information is in directory.csv, writes all information in a seperate csv file.  
     else:
-        df = pd.read_csv("starbucks.csv") #.lower for case sensitivity, along with .get to get string from outside 
+        df = pd.read_csv("directory.csv") #.lower for case sensitivity, along with .get to get string from outside 
         df1= df[df['State/Province'].str.lower().str.contains(state_box.get().lower()) & df['Country'].str.lower().str.contains(country_box.get().lower())& df['City'].str.lower().str.contains(city_box.get().lower()) & df['Postcode'].str.lower().str.contains(zip_box.get().lower())]
         if not df1.empty:
             df1.to_csv("locations.csv", index=False)
-            tkinter.messagebox.showinfo(" Process Completed", "All collected information on nearby locations are printed on found_data.csv")
+            tkinter.messagebox.showinfo(" Process Completed", "All collected information on nearby locations are printed on locations.csv")
     #end's function after user is finished using the button.
             country_box.delete(0, tkinter.END)
             city_box.delete(0, tkinter.END)
